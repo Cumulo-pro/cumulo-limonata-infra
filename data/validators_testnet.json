@@ -1,0 +1,73 @@
+[
+  {
+    "name": "UTSA",
+    "webservices": "https://utsa.gitbook.io/services/testnet/limonata",
+    "x": "lesnik_utsa",
+    "validatorlogo": "lesnik.jpg",
+    "explorer": "https://exp.utsa.tech/limonata-test/staking",
+    "rpc": "https://t-limonata.rpc.utsa.tech/",
+    "snapshot": "",
+    "peers": "",
+    "content": {
+      "Installation Guide": "https://utsa.gitbook.io/services/testnet/limonata"
+    }
+  },
+  {
+    "name": "Indonode",
+    "webservices": "",
+    "x": "",
+    "validatorlogo": "indonode.png",
+    "explorer": "https://explorer.indonode.net/limonata",
+    "rpc": "",
+    "snapshot": "",
+    "peers": "5782b15b715f8dd108b647543b96b7c94c3404e1@rpc.limonata-t.indonode.net:43656",
+    "seed": "",
+    "genesis": "",
+    "tools_url": {},
+    "tools_desc": {},
+    "content": {}
+  },
+  {
+    "name": "OneNov",
+    "webservices": "https://explorer.onenov.xyz",
+    "x": "Surya021292",
+    "validatorlogo": "onenov.jpg",
+    "explorer": "https://explorer.onenov.xyz/limonata-test/staking",
+    "rpc": "",
+    "snapshot": ""
+   },
+  {
+    "name": "Valopers",
+    "webservices": "https://testnet.limonata.valopers.com/",
+    "x": "",
+    "validatorlogo": "valopers.png",
+    "explorer": "https://testnet.limonata.valopers.com/",
+    "rpc": "",
+    "snapshot": "",
+    "peers": "",
+    "seed": "",
+    "genesis": "",
+    "tools_url": {},
+    "tools_desc": {},
+    "content": {
+      "Description": "Web UI to stake/delegate, vote on governance and unjail validators directly from a browser wallet, without CLI."
+    }
+  },
+  {
+    "name": "WinScan",
+    "webservices": "https://winscan.winsnip.xyz/limonata-test",
+    "x": "",
+    "validatorlogo": "winsnip.png",
+    "explorer": "https://winscan.winsnip.xyz/limonata-test",
+    "rpc": "",
+    "snapshot": "",
+    "peers": "",
+    "seed": "",
+    "genesis": "",
+    "tools_url": {},
+    "tools_desc": {},
+    "content": {
+      "Description": "Web interface to manage validator operations: stake/delegate, vote on governance proposals, redelegate stakes and unjail validators."
+    }
+  }
+]
