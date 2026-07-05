@@ -62,14 +62,7 @@
     "explorer": "https://winscan.winsnip.xyz/limonata-test",
     "rpc": "",
     "snapshot": "",
-    "peers": "",
-    "seed": "",
-    "genesis": "",
-    "tools_url": {},
-    "tools_desc": {},
-    "content": {
-      "Description": "Web interface to manage validator operations: stake/delegate, vote on governance proposals, redelegate stakes and unjail validators."
-    }
+    "peers": ""    
   },
   {
   "name": "Cumulo",
