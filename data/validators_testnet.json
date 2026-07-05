@@ -1,5 +1,29 @@
 [
   {
+  "name": "Limonata",
+  "webservices": "https://limonata.xyz/VALIDATOR.md",
+  "x": "",
+  "validatorlogo": "limonata.png",
+  "explorer": "",
+  "genesis": "https://limonata.xyz/genesis.json",
+  "seeds": "4b154368aab24cb5b31c927efd50c73d0f4f9799@142.127.103.79:26656",
+  "api": "",
+  "rpc": "https://rpc.limonata.xyz",
+  "grpc": "",
+  "snapshot": "",
+  "addrbook": "",
+  "evm": "",
+  "tools_url": {
+    "State Sync RPC": "https://cosmos-rpc.limonata.xyz:443"
+  },
+  "tools_desc": {
+    "State Sync RPC": "rpc_servers value for [statesync] in config.toml. trust_height=544000, trust_hash=9236877311F071DF7400BF2057FF5256CCEB515E6700C01C5E1B165025473FA4, trust_period=168h0m0s."
+  },
+  "content": {
+   "Validator Guide": "https://limonata.xyz/VALIDATOR.md"
+  }
+},
+  {
     "name": "UTSA",
     "webservices": "https://utsa.gitbook.io/services/testnet/limonata",
     "x": "lesnik_utsa",
