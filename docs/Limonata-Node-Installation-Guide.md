@@ -73,8 +73,8 @@ Multi-chain server: ports reassigned to avoid collisions.
 ## 6. Initialization
 
 ```bash
-evmd init <moniker> --chain-id limonata_10777-1 --home /home/dedicaovh/.limonata
-wget https://limonata.xyz/genesis.json -O /home/dedicaovh/.limonata/config/genesis.json
+evmd init <moniker> --chain-id limonata_10777-1 --home /home/<server_user>/.limonata
+wget https://limonata.xyz/genesis.json -O /home/<server_user>/.limonata/config/genesis.json
 ```
 
 Required changes in `config.toml`:
@@ -95,10 +95,10 @@ After=network-online.target
 Wants=network-online.target
 
 [Service]
-User=dedicaovh
-WorkingDirectory=/home/dedicaovh/.limonata
-ExecStart=/home/dedicaovh/go/bin/evmd start \
-  --home /home/dedicaovh/.limonata \
+User=<server_user>
+WorkingDirectory=/home/<server_user>/.limonata
+ExecStart=/home/<server_user>/go/bin/evmd start \
+  --home /home/<server_user>/.limonata \
   --chain-id limonata_10777-1 \
   --evm.evm-chain-id 10777 \
   --minimum-gas-prices 0aLIMO
@@ -141,7 +141,7 @@ curl -s "https://cosmos-rpc.limonata.xyz/block?height=<H>" | jq -r '.result.bloc
 ```
 
 ```bash
-evmd comet unsafe-reset-all --home /home/dedicaovh/.limonata --keep-addr-book
+evmd comet unsafe-reset-all --home /home/<server_user>/.limonata --keep-addr-book
 sudo systemctl restart limonatad
 ```
 
@@ -161,4 +161,4 @@ curl -s https://cosmos-rpc.limonata.xyz/status | jq -r '.result.sync_info.latest
 
 ## 9. Next step
 
-Once the node is synced, continue with key and validator creation → see [`validator/`](../validator).
+Once the node is synced, continue with key and validator creation: see `Limonata-Validator-Setup-Guide.md` in `docs/`.
