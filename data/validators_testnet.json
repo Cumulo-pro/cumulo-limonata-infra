@@ -6,6 +6,7 @@
     "validatorlogo": "𝐥𝐞𝐬𝐧𝐢𝐤.jpg",
     "explorer": "https://exp.utsa.tech/limonata-test/staking",
     "rpc": "https://t-limonata.rpc.utsa.tech/",
+    "api": "https://t-limonata.api.utsa.tech/",
     "snapshot": "",
     "peers": "",
     "content": {
@@ -69,5 +70,18 @@
     "content": {
       "Description": "Web interface to manage validator operations: stake/delegate, vote on governance proposals, redelegate stakes and unjail validators."
     }
-  }
+  },
+  {
+  "name": "Cumulo",
+  "webservices": "https://cumulo.pro/services/gnoland_testnet/",
+  "x": "Cumulo_pro",
+  "validatorlogo": "cumulo.jpg",
+  "explorer": "",
+  "rpc": "https://rpc-testnet.limonata.cumulo.me",
+  "api": "https://api-testnet.limonata.cumulo.me",
+  "grpc": "grpc-testnet.limonata.cumulo.me:443",
+  "evm": "https://evm-testnet.limonata.cumulo.me",
+  "snapshot": "",
+  "peers": ""
+}
 ]
