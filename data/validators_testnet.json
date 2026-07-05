@@ -46,13 +46,7 @@
     "rpc": "",
     "snapshot": "",
     "peers": "",
-    "seed": "",
-    "genesis": "",
-    "tools_url": {},
-    "tools_desc": {},
-    "content": {
-      "Description": "Web UI to stake/delegate, vote on governance and unjail validators directly from a browser wallet, without CLI."
-    }
+    "seed": ""
   },
   {
     "name": "WinScan",
