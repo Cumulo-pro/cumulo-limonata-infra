@@ -101,7 +101,7 @@ curl -s http://localhost:9099/api/v1/targets | grep -A5 limonata
 
 ### 4. Grafana Dashboard
 
-**Dashboard file:** [`limonata-grafana-dashboard.json`](https://github.com/Cumulo-pro/cumulo-limonata-infra/blob/main/metrics/limonata-grafana-dashboard.json)
+**Dashboard file:** [`limonata-grafana-dashboard.json`](https://github.com/Cumulo-pro/cumulo-limonata-infra/blob/main/metrics/limonata_grafana_dashboard.json)
 
 The dashboard covers:
 
