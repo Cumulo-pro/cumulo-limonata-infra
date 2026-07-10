@@ -83,10 +83,40 @@
     "peers": ""    
   },
   {
+  "name": "NodeSync",
+  "webservices": "https://nodesync.top/services/testnet/limonata",
+  "x": "nodesync_top",
+  "validatorlogo": "nodesync.jpg",
+  "explorer": "https://explorer.nodesync.top/Limonata-Testnet/",
+  "peers": "",
+  "seeds": "",
+  "api": "",
+  "rpc": "",
+  "grpc": "",
+  "snapshot": "https://snapshots.nodesync.top/Testnet/Limonata/latest.tar.lz4",
+  "addrbook": "",
+  "evm": "",
+  "content": {
+    "Installation Guide": "https://nodesync.top/services/testnet/limonata/installation",
+    "Cheat Sheet": "https://nodesync.top/services/testnet/limonata/cheat-sheet",
+    "Upgrade Guide": "https://nodesync.top/services/testnet/limonata/upgrade"
+  },
+  "tools_url": {
+    "Consensus State": "https://nodesync.top/services/testnet/limonata/consensus",
+    "Decentralization Map": "https://nodesync.top/services/testnet/limonata/decentralization-map",
+    "Validator Monitoring Bot (Telegram)": "https://t.me/ns_cosmos_monitoring_bot"
+  },
+  "tools_desc": {
+    "Consensus State": "Live consensus state view for the Limonata testnet.",
+    "Decentralization Map": "Visualization of validator distribution and network decentralization.",
+    "Validator Monitoring Bot (Telegram)": "Telegram bot for validator uptime and signing alerts."
+  }
+},
+  {
   "name": "Incentived.org",
   "webservices": "",
   "x": "incentivedorg",
-  "validatorlogo": "incentived.jpg",
+  "validatorlogo": "incentivedorg.jpg",
   "explorer": "",
   "peers": "",
   "seeds": "",
