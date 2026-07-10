@@ -83,6 +83,18 @@
     "peers": ""    
   },
   {
+  "name": "Incentived.org",
+  "webservices": "",
+  "x": "incentivedorg",
+  "validatorlogo": "incentived.jpg",
+  "explorer": "",
+  "peers": "",
+  "seeds": "",
+  "api": "https://api-limonata.incentived.org/",
+  "rpc": "https://rpc-limonata.incentived.org/",
+  "grpc": "grpc-limonata.incentived.org:443"
+},
+  {
   "name": "Cumulo",
   "webservices": "https://cumulo.pro/services/gnoland_testnet/",
   "x": "Cumulo_pro",
